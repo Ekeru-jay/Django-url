@@ -67,3 +67,5 @@ fi
 if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
     hash -r 2> /dev/null
 fi
+export SECRET_KEY='django-insecure-3li!k_ewqkz@k(6-fjzd)g86@_(_b*fcwv!5y&o@3uppd$v4-q'
+export DEBUG=True
